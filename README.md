@@ -5,6 +5,7 @@
 * sfdx force:org:create -f config/project-scratch-def.json -a test -d 30
 * sfdx force:user:create --setalias qa-user --targetusername test --targetdevhubusername devhub
 
+vs code default org - click to logon
 
 force:org:open
 
