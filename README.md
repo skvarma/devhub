@@ -20,7 +20,7 @@ sfdx force:data:soql:query -q "SELECT Name FROM ApexTrigger" -t
 sfdx force:apex:log:tail
 
 force:limits:api:display 
-schema:sobject:describe | grep > temp/out.json - cmd shift f
+schema:sobject:describe | grep > temp/out.json -  shift opt f | shift alt f
 
 ## Dev, Build and Test
 
